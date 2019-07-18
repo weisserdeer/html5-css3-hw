@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial MT', sans-serif;
+}
+
+.add-padding {
+    padding: 50px 50px 0 50px;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header-site {
+    height: 323px;
+    background-color: #445162;
+    color: #fff;
+}
+
+.header-img {
+    width: 469px;
+    height: 214px;
+    background-color: #fff;
+    float: right;
+}
+
+.h1-header {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    font: 200 60px/1 sans-serif;
+    margin: -10px 0 45px 0;
+}
+
+.header-descr {
+    list-style-image: url(../img/check_icon.png);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    margin-left: 50px;
+    font: 400 20px/38px sans-serif;
+}
+
+.about-img {
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    float: right;
+}
+
+.h2-about {
+    color: #445161;
+    font: 400 30px/36px sans-serif;
+    margin-bottom: 30px;
+}
+
+.p-about-block {
+    width: 649px;
+}
+
+.p-about {
+    color: #333333;
+    font: 400 16px/24px sans-serif;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.h2-pros {
+    color: #445161;
+    font: 400 30px/36px sans-serif;
+    text-align: center;
+}
+
+.s-pros {
+    height: 63px;
+}
+
+.s-pros-bullet {
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+}
+
+.s-pros-img {
+    margin: 6px;
+}
+
+.s-pros-p {
+    display: block;
+    width: 530px;
+    text-align: justify;
+    margin-left: 9px;
+    
+}
+
+.s-pros-bullet,
+.s-pros-p {
+    float: left;
+}
