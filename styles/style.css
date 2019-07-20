@@ -156,8 +156,52 @@ body {
 }
 
 .main-reviews {
-    height: 424px;
+    height: 374px;
     background-color: #f5f5f5;
+}
+
+.h2-review {
+    color: #445161;
+    font: 400 30px/36px sans-serif;
+    text-align: center;
+}
+
+.review-block {
+    float: left;
+    margin: 25px 0 0 30px;
+}
+
+.review-img {
+    width: 75px;
+    height: 75px;
+    background-color: #445161;
+    border-radius: 50%;
+    float: left;
+}
+
+.review-text-block {
+    width: 483px;
+    height: 121px;
+    background-image: url(../img/bg_review.png);
+    float: right;
+    margin-left: 16px;
+}
+
+.review-text,
+.review-sign {
+    margin: 15px 20px 0 27px;
+}
+
+.review-text {
+    color: #333333;
+    font: italic 400 14px/18px sans-serif;
+    text-align: justify;
+}
+
+.review-sign {
+    color: #989898;
+    font: 400 14px/18px sans-serif;
+    margin-top: 6px;
 }
 
 @font-face {
