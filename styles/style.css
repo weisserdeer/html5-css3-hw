@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 }
 
 .add-padding {
-    padding: 50px 50px 50px 50px;
+    padding: 50px;
 }
 
 .no-margin-left {
@@ -26,7 +27,7 @@ body {
 }
 
 .header-site {
-    height: 273px;
+    height: 323px;
     background-color: #445162;
     color: #fff;
 }
@@ -52,7 +53,7 @@ body {
 }
 
 .main-about {
-    height: 300px;
+    height: 350px;
 }
 
 .about-img {
@@ -81,7 +82,7 @@ body {
 
 .main-pros {
     background-color: #f5f5f5;
-    height: 380px;
+    height: 430px;
 }
 
 .h2-pros {
@@ -161,7 +162,7 @@ body {
 }
 
 .main-reviews {
-    height: 374px;
+    height: 424px;
     background-color: #f5f5f5;
 }
 
@@ -210,7 +211,7 @@ body {
 }
 
 .main-purchase {
-    height: 606px;
+    height: 656px;
     padding: 50px 95px 0 95px;
 }
 
@@ -337,4 +338,46 @@ footer .contacts-block form {
     border-radius: 6px;
     display: block;
     margin: 0 auto;
+}
+
+::placeholder {
+    color: #445162;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer .contacts-detail>div:not(.socialIcons) {
+    margin-bottom: 15px;
+}
+
+footer .contacts-detail .skype {
+    background-image: url(../img/skype_icon.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+footer .contacts-detail .icq {
+    background-image: url(../img/icq_icon.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+footer .contacts-detail .email {
+    background-image: url(../img/email_icon.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+footer .contacts-detail .phone {
+    background-image: url(../img/phone_icon.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+footer .contacts-detail .social-icons {
+    font-family: 'Socialico', sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 44px;
+    margin-top: 40px;
 }
