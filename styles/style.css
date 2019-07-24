@@ -10,7 +10,7 @@ body {
 
 @font-face {
     font-family: Socialico;
-    src: url(/fonts/Socialico.ttf) format('truetype');
+    src: url(../fonts/Socialico.ttf) format('truetype');
 }
 
 .add-padding {
